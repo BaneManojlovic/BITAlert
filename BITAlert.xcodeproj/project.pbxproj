@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8760667CE55DA79A1F427802 /* Pods_BITAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65F6D61F8CB9438A4C10FDD /* Pods_BITAlert.framework */; };
 		9A1C44732312DF4F00343710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C44722312DF4F00343710 /* AppDelegate.swift */; };
 		9A1C44752312DF4F00343710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C44742312DF4F00343710 /* ViewController.swift */; };
 		9A1C44782312DF4F00343710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1C44762312DF4F00343710 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		9A1C447D2312DF5000343710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1C447B2312DF5000343710 /* LaunchScreen.storyboard */; };
 		9A1C44882312DF5000343710 /* BITAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C44872312DF5000343710 /* BITAlertTests.swift */; };
 		9A1C44932312DF5000343710 /* BITAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C44922312DF5000343710 /* BITAlertUITests.swift */; };
+		A9ACE55C4C49C3B548313934 /* Pods_BITAlertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE55ADDFDF7113101A030DB /* Pods_BITAlertTests.framework */; };
+		ACEEA8E827F2901D2D6937F2 /* Pods_BITAlertUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D01DA73CDA7C9B9522CF088 /* Pods_BITAlertUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00AB530B92094005FDB20BC6 /* Pods-BITAlertUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BITAlertUITests.release.xcconfig"; path = "Target Support Files/Pods-BITAlertUITests/Pods-BITAlertUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3C8048FEE48E246413027585 /* Pods-BITAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BITAlert.release.xcconfig"; path = "Target Support Files/Pods-BITAlert/Pods-BITAlert.release.xcconfig"; sourceTree = "<group>"; };
+		4A7187EAF9CCB33833D7788A /* Pods-BITAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BITAlert.debug.xcconfig"; path = "Target Support Files/Pods-BITAlert/Pods-BITAlert.debug.xcconfig"; sourceTree = "<group>"; };
+		6D01DA73CDA7C9B9522CF088 /* Pods_BITAlertUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BITAlertUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1C446F2312DF4F00343710 /* BITAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BITAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1C44722312DF4F00343710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A1C44742312DF4F00343710 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		9A1C448E2312DF5000343710 /* BITAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BITAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1C44922312DF5000343710 /* BITAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BITAlertUITests.swift; sourceTree = "<group>"; };
 		9A1C44942312DF5000343710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B126CD3A6FC77DE3C0B5A408 /* Pods-BITAlertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BITAlertTests.release.xcconfig"; path = "Target Support Files/Pods-BITAlertTests/Pods-BITAlertTests.release.xcconfig"; sourceTree = "<group>"; };
+		EAE55ADDFDF7113101A030DB /* Pods_BITAlertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BITAlertTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF724E630B08EF181F63527 /* Pods-BITAlertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BITAlertUITests.debug.xcconfig"; path = "Target Support Files/Pods-BITAlertUITests/Pods-BITAlertUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECFA1AE8C2F83D9EF62198BA /* Pods-BITAlertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BITAlertTests.debug.xcconfig"; path = "Target Support Files/Pods-BITAlertTests/Pods-BITAlertTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F65F6D61F8CB9438A4C10FDD /* Pods_BITAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BITAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8760667CE55DA79A1F427802 /* Pods_BITAlert.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9ACE55C4C49C3B548313934 /* Pods_BITAlertTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACEEA8E827F2901D2D6937F2 /* Pods_BITAlertUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				9A1C44862312DF5000343710 /* BITAlertTests */,
 				9A1C44912312DF5000343710 /* BITAlertUITests */,
 				9A1C44702312DF4F00343710 /* Products */,
+				DB86EBA701BA166B5EDAD8DF /* Pods */,
+				D72C13A8EB74040D76DC67AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,30 @@
 			path = BITAlertUITests;
 			sourceTree = "<group>";
 		};
+		D72C13A8EB74040D76DC67AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F65F6D61F8CB9438A4C10FDD /* Pods_BITAlert.framework */,
+				EAE55ADDFDF7113101A030DB /* Pods_BITAlertTests.framework */,
+				6D01DA73CDA7C9B9522CF088 /* Pods_BITAlertUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB86EBA701BA166B5EDAD8DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A7187EAF9CCB33833D7788A /* Pods-BITAlert.debug.xcconfig */,
+				3C8048FEE48E246413027585 /* Pods-BITAlert.release.xcconfig */,
+				ECFA1AE8C2F83D9EF62198BA /* Pods-BITAlertTests.debug.xcconfig */,
+				B126CD3A6FC77DE3C0B5A408 /* Pods-BITAlertTests.release.xcconfig */,
+				ECF724E630B08EF181F63527 /* Pods-BITAlertUITests.debug.xcconfig */,
+				00AB530B92094005FDB20BC6 /* Pods-BITAlertUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +173,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A1C44972312DF5000343710 /* Build configuration list for PBXNativeTarget "BITAlert" */;
 			buildPhases = (
+				4BA98BAFD93A916941AAE91C /* [CP] Check Pods Manifest.lock */,
 				9A1C446B2312DF4F00343710 /* Sources */,
 				9A1C446C2312DF4F00343710 /* Frameworks */,
 				9A1C446D2312DF4F00343710 /* Resources */,
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A1C449A2312DF5000343710 /* Build configuration list for PBXNativeTarget "BITAlertTests" */;
 			buildPhases = (
+				E30242F9E1E77D0FBBAB49FE /* [CP] Check Pods Manifest.lock */,
 				9A1C447F2312DF5000343710 /* Sources */,
 				9A1C44802312DF5000343710 /* Frameworks */,
 				9A1C44812312DF5000343710 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A1C449D2312DF5000343710 /* Build configuration list for PBXNativeTarget "BITAlertUITests" */;
 			buildPhases = (
+				ED295BCCD8A508B06B2C3628 /* [CP] Check Pods Manifest.lock */,
 				9A1C448A2312DF5000343710 /* Sources */,
 				9A1C448B2312DF5000343710 /* Frameworks */,
 				9A1C448C2312DF5000343710 /* Resources */,
@@ -250,6 +294,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BA98BAFD93A916941AAE91C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BITAlert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E30242F9E1E77D0FBBAB49FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BITAlertTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED295BCCD8A508B06B2C3628 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BITAlertUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A1C446B2312DF4F00343710 /* Sources */ = {
@@ -430,6 +543,7 @@
 		};
 		9A1C44982312DF5000343710 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7187EAF9CCB33833D7788A /* Pods-BITAlert.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +561,7 @@
 		};
 		9A1C44992312DF5000343710 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C8048FEE48E246413027585 /* Pods-BITAlert.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +579,7 @@
 		};
 		9A1C449B2312DF5000343710 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECFA1AE8C2F83D9EF62198BA /* Pods-BITAlertTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +600,7 @@
 		};
 		9A1C449C2312DF5000343710 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B126CD3A6FC77DE3C0B5A408 /* Pods-BITAlertTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +621,7 @@
 		};
 		9A1C449E2312DF5000343710 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECF724E630B08EF181F63527 /* Pods-BITAlertUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +641,7 @@
 		};
 		9A1C449F2312DF5000343710 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00AB530B92094005FDB20BC6 /* Pods-BITAlertUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
