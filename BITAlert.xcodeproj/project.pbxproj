@@ -114,12 +114,20 @@
 		9A1C44712312DF4F00343710 /* BITAlert */ = {
 			isa = PBXGroup;
 			children = (
-				9A1C44722312DF4F00343710 /* AppDelegate.swift */,
-				9A1C44742312DF4F00343710 /* ViewController.swift */,
-				9A1C44762312DF4F00343710 /* Main.storyboard */,
-				9A1C44792312DF5000343710 /* Assets.xcassets */,
-				9A1C447B2312DF5000343710 /* LaunchScreen.storyboard */,
 				9A1C447E2312DF5000343710 /* Info.plist */,
+				9A5269CE2313B3AB00625581 /* Api */,
+				9A5269D02313B3CB00625581 /* AppDelegate */,
+				9A5269CF2313B3C000625581 /* Assets */,
+				9A5269D12313B3E300625581 /* Config */,
+				9A5269D22313B3EC00625581 /* Controller */,
+				9A5269D42313B40900625581 /* Extensions */,
+				9A5269D52313B41100625581 /* Helpers */,
+				9A5269D62313B42400625581 /* Mapper */,
+				9A5269D72313B42B00625581 /* Misc */,
+				9A5269D82313B43D00625581 /* Models */,
+				9A5269D92313B44700625581 /* Storyboards */,
+				9A5269DA2313B45900625581 /* CustomViewComponents */,
+				9A5269DB2313B46700625581 /* Views */,
 			);
 			path = BITAlert;
 			sourceTree = "<group>";
@@ -142,6 +150,134 @@
 			path = BITAlertUITests;
 			sourceTree = "<group>";
 		};
+		9A5269CE2313B3AB00625581 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		9A5269CF2313B3C000625581 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9A1C44792312DF5000343710 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9A5269D02313B3CB00625581 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9A1C44722312DF4F00343710 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9A5269D12313B3E300625581 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				9A5269D32313B3F600625581 /* Swiftgen */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		9A5269D22313B3EC00625581 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A5269D32313B3F600625581 /* Swiftgen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Swiftgen;
+			sourceTree = "<group>";
+		};
+		9A5269D42313B40900625581 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9A5269D52313B41100625581 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9A5269D62313B42400625581 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		9A5269D72313B42B00625581 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		9A5269D82313B43D00625581 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9A5269D92313B44700625581 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9A1C447B2312DF5000343710 /* LaunchScreen.storyboard */,
+				9A1C44762312DF4F00343710 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9A5269DA2313B45900625581 /* CustomViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViewComponents;
+			sourceTree = "<group>";
+		};
+		9A5269DB2313B46700625581 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A5269DE2313B49D00625581 /* RegisterMVP */,
+				9A5269DD2313B49500625581 /* LoginMVP */,
+				9A5269DC2313B48C00625581 /* BaseMVP */,
+				9A1C44742312DF4F00343710 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A5269DC2313B48C00625581 /* BaseMVP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseMVP;
+			sourceTree = "<group>";
+		};
+		9A5269DD2313B49500625581 /* LoginMVP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginMVP;
+			sourceTree = "<group>";
+		};
+		9A5269DE2313B49D00625581 /* RegisterMVP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RegisterMVP;
+			sourceTree = "<group>";
+		};
 		D72C13A8EB74040D76DC67AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +298,6 @@
 				ECF724E630B08EF181F63527 /* Pods-BITAlertUITests.debug.xcconfig */,
 				00AB530B92094005FDB20BC6 /* Pods-BITAlertUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
