@@ -7,7 +7,7 @@
 //
 
 import XCTest
-
+// swiftlint:disable all
 class BITAlertUITests: XCTestCase {
 
     override func setUp() {

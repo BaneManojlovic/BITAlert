@@ -7,6 +7,7 @@ target 'BITAlert' do
 
   # Pods for BITAlert
   pod 'SwiftGen'
+  pod 'SwiftLint'
 
   target 'BITAlertTests' do
     inherit! :search_paths
