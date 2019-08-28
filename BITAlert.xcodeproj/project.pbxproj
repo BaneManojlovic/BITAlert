@@ -15,6 +15,14 @@
 		9A1C447D2312DF5000343710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1C447B2312DF5000343710 /* LaunchScreen.storyboard */; };
 		9A1C44882312DF5000343710 /* BITAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C44872312DF5000343710 /* BITAlertTests.swift */; };
 		9A1C44932312DF5000343710 /* BITAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C44922312DF5000343710 /* BITAlertUITests.swift */; };
+		9ACC880D231718BD0087CED5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ACC880C231718BD0087CED5 /* Localizable.strings */; };
+		9ACC88102317195D0087CED5 /* Colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9ACC880F2317195D0087CED5 /* Colors.txt */; };
+		9ACC881323171B000087CED5 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC881223171AFF0087CED5 /* Assets.swift */; };
+		9ACC881523171CC60087CED5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC881423171CC60087CED5 /* Colors.swift */; };
+		9ACC881723171CCD0087CED5 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC881623171CCD0087CED5 /* Fonts.swift */; };
+		9ACC881923171CD40087CED5 /* StoryboardScenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC881823171CD30087CED5 /* StoryboardScenes.swift */; };
+		9ACC881B23171CDB0087CED5 /* StoryboardSegues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC881A23171CDA0087CED5 /* StoryboardSegues.swift */; };
+		9ACC881D23171E910087CED5 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC881C23171E910087CED5 /* Strings.swift */; };
 		A9ACE55C4C49C3B548313934 /* Pods_BITAlertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE55ADDFDF7113101A030DB /* Pods_BITAlertTests.framework */; };
 		ACEEA8E827F2901D2D6937F2 /* Pods_BITAlertUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D01DA73CDA7C9B9522CF088 /* Pods_BITAlertUITests.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +62,14 @@
 		9A1C448E2312DF5000343710 /* BITAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BITAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1C44922312DF5000343710 /* BITAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BITAlertUITests.swift; sourceTree = "<group>"; };
 		9A1C44942312DF5000343710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ACC880C231718BD0087CED5 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		9ACC880F2317195D0087CED5 /* Colors.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Colors.txt; sourceTree = "<group>"; };
+		9ACC881223171AFF0087CED5 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		9ACC881423171CC60087CED5 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		9ACC881623171CCD0087CED5 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		9ACC881823171CD30087CED5 /* StoryboardScenes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardScenes.swift; sourceTree = "<group>"; };
+		9ACC881A23171CDA0087CED5 /* StoryboardSegues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardSegues.swift; sourceTree = "<group>"; };
+		9ACC881C23171E910087CED5 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		B126CD3A6FC77DE3C0B5A408 /* Pods-BITAlertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BITAlertTests.release.xcconfig"; path = "Target Support Files/Pods-BITAlertTests/Pods-BITAlertTests.release.xcconfig"; sourceTree = "<group>"; };
 		EAE55ADDFDF7113101A030DB /* Pods_BITAlertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BITAlertTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF724E630B08EF181F63527 /* Pods-BITAlertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BITAlertUITests.debug.xcconfig"; path = "Target Support Files/Pods-BITAlertUITests/Pods-BITAlertUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -160,7 +176,10 @@
 		9A5269CF2313B3C000625581 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				9ACC880E231719220087CED5 /* Fonts */,
 				9A1C44792312DF5000343710 /* Assets.xcassets */,
+				9ACC880C231718BD0087CED5 /* Localizable.strings */,
+				9ACC880F2317195D0087CED5 /* Colors.txt */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -176,7 +195,7 @@
 		9A5269D12313B3E300625581 /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				9A5269D32313B3F600625581 /* Swiftgen */,
+				9ACC881123171AD20087CED5 /* Swiftgen */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -186,13 +205,6 @@
 			children = (
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		9A5269D32313B3F600625581 /* Swiftgen */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Swiftgen;
 			sourceTree = "<group>";
 		};
 		9A5269D42313B40900625581 /* Extensions */ = {
@@ -278,6 +290,26 @@
 			path = RegisterMVP;
 			sourceTree = "<group>";
 		};
+		9ACC880E231719220087CED5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9ACC881123171AD20087CED5 /* Swiftgen */ = {
+			isa = PBXGroup;
+			children = (
+				9ACC881C23171E910087CED5 /* Strings.swift */,
+				9ACC881A23171CDA0087CED5 /* StoryboardSegues.swift */,
+				9ACC881823171CD30087CED5 /* StoryboardScenes.swift */,
+				9ACC881623171CCD0087CED5 /* Fonts.swift */,
+				9ACC881423171CC60087CED5 /* Colors.swift */,
+				9ACC881223171AFF0087CED5 /* Assets.swift */,
+			);
+			path = Swiftgen;
+			sourceTree = "<group>";
+		};
 		D72C13A8EB74040D76DC67AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -308,6 +340,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A1C44972312DF5000343710 /* Build configuration list for PBXNativeTarget "BITAlert" */;
 			buildPhases = (
+				9ACC880B231718060087CED5 /* SwiftGen */,
+				9ACC881E231725530087CED5 /* SwiftLint */,
 				4BA98BAFD93A916941AAE91C /* [CP] Check Pods Manifest.lock */,
 				9A1C446B2312DF4F00343710 /* Sources */,
 				9A1C446C2312DF4F00343710 /* Frameworks */,
@@ -409,7 +443,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A1C447D2312DF5000343710 /* LaunchScreen.storyboard in Resources */,
+				9ACC880D231718BD0087CED5 /* Localizable.strings in Resources */,
 				9A1C447A2312DF5000343710 /* Assets.xcassets in Resources */,
+				9ACC88102317195D0087CED5 /* Colors.txt in Resources */,
 				9A1C44782312DF4F00343710 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +488,43 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		9ACC880B231718060087CED5 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/swiftgen.yml",
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which $PODS_ROOT/SwiftGen/bin/swiftgen >/dev/null; then\n$PODS_ROOT/SwiftGen/bin/swiftgen config run\nelse\necho \"warning: SwiftGen not installed, download it from https://github.com/AliSoftware/SwiftGen\"\nfi\n";
+		};
+		9ACC881E231725530087CED5 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		E30242F9E1E77D0FBBAB49FE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -504,8 +577,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ACC881B23171CDB0087CED5 /* StoryboardSegues.swift in Sources */,
 				9A1C44752312DF4F00343710 /* ViewController.swift in Sources */,
+				9ACC881D23171E910087CED5 /* Strings.swift in Sources */,
+				9ACC881723171CCD0087CED5 /* Fonts.swift in Sources */,
+				9ACC881523171CC60087CED5 /* Colors.swift in Sources */,
 				9A1C44732312DF4F00343710 /* AppDelegate.swift in Sources */,
+				9ACC881323171B000087CED5 /* Assets.swift in Sources */,
+				9ACC881923171CD40087CED5 /* StoryboardScenes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
