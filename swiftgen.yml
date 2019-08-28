@@ -1,0 +1,33 @@
+strings:
+  inputs: BITAlert/Assets/Localizable.strings
+  outputs:
+    templateName: structured-swift4
+    output: BITAlert/Config/Swiftgen/Strings.swift
+
+ib:
+  inputs: BITAlert/Storyboards
+  outputs:
+    - templateName: scenes-swift4
+      output: BITAlert/Config/Swiftgen/StoryboardScenes.swift
+      params:
+        ignoreTargetModule: true
+    - templateName: segues-swift4
+      output: BITAlert/Config/Swiftgen/StoryboardSegues.swift
+
+xcassets:
+  inputs: BITAlert/Assets/Assets.xcassets
+  outputs:
+    templateName: swift4
+    output: BITAlert/Config/Swiftgen/Assets.swift
+
+fonts:
+  inputs: BITAlert/Assets/Fonts
+  outputs:
+    - templateName: swift4
+      output: BITAlert/Config/Swiftgen/Fonts.swift
+
+colors:
+  inputs: BITAlert/Assets/Colors.txt
+  outputs:
+    templateName: swift4
+    output: BITAlert/Config/Swiftgen/Colors.swift
