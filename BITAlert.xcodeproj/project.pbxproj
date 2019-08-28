@@ -340,12 +340,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A1C44972312DF5000343710 /* Build configuration list for PBXNativeTarget "BITAlert" */;
 			buildPhases = (
+				4BA98BAFD93A916941AAE91C /* [CP] Check Pods Manifest.lock */,
 				9ACC880B231718060087CED5 /* SwiftGen */,
 				9ACC881E231725530087CED5 /* SwiftLint */,
-				4BA98BAFD93A916941AAE91C /* [CP] Check Pods Manifest.lock */,
 				9A1C446B2312DF4F00343710 /* Sources */,
 				9A1C446C2312DF4F00343710 /* Frameworks */,
 				9A1C446D2312DF4F00343710 /* Resources */,
+				0E97150B9E763EB610A752EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -467,6 +468,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0E97150B9E763EB610A752EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BITAlert/Pods-BITAlert-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BITAlert/Pods-BITAlert-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BITAlert/Pods-BITAlert-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4BA98BAFD93A916941AAE91C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
