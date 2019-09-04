@@ -10,6 +10,7 @@ target 'BITAlert' do
   pod 'SwiftLint'
   pod 'GoogleMaps'
   pod 'GooglePlaces'
+  pod 'Alamofire'
 
   target 'BITAlertTests' do
     inherit! :search_paths

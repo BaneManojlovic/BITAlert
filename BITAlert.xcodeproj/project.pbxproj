@@ -31,6 +31,14 @@
 		9A232C6D231F7A6600BF50CD /* ActivationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C6C231F7A6600BF50CD /* ActivationCodeViewController.swift */; };
 		9A232C6F231F7A7B00BF50CD /* ActivationCodePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C6E231F7A7B00BF50CD /* ActivationCodePresenter.swift */; };
 		9A232C71231F882E00BF50CD /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C70231F882E00BF50CD /* RegisterModel.swift */; };
+		9A232C73231F8AAD00BF50CD /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C72231F8AAD00BF50CD /* BaseAPI.swift */; };
+		9A232C75231F8C1000BF50CD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C74231F8C1000BF50CD /* Constants.swift */; };
+		9A232C77231F8CDA00BF50CD /* MultipartRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C76231F8CDA00BF50CD /* MultipartRequestModel.swift */; };
+		9A232C79231F8DAE00BF50CD /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C78231F8DAE00BF50CD /* ErrorResponse.swift */; };
+		9A232C7B231F8E8900BF50CD /* AuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C7A231F8E8900BF50CD /* AuthAPI.swift */; };
+		9A232C7D231F8F1600BF50CD /* LanguageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C7C231F8F1600BF50CD /* LanguageHelper.swift */; };
+		9A232C7F231F92CF00BF50CD /* AuthMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C7E231F92CF00BF50CD /* AuthMapper.swift */; };
+		9A232C81231F92EE00BF50CD /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C80231F92EE00BF50CD /* Mapper.swift */; };
 		9ACC880D231718BD0087CED5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ACC880C231718BD0087CED5 /* Localizable.strings */; };
 		9ACC88102317195D0087CED5 /* Colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9ACC880F2317195D0087CED5 /* Colors.txt */; };
 		9ACC881323171B000087CED5 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC881223171AFF0087CED5 /* Assets.swift */; };
@@ -94,6 +102,14 @@
 		9A232C6C231F7A6600BF50CD /* ActivationCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationCodeViewController.swift; sourceTree = "<group>"; };
 		9A232C6E231F7A7B00BF50CD /* ActivationCodePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationCodePresenter.swift; sourceTree = "<group>"; };
 		9A232C70231F882E00BF50CD /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterModel.swift; path = BITAlert/Views/ActivationCodeMVP/RegisterModel.swift; sourceTree = SOURCE_ROOT; };
+		9A232C72231F8AAD00BF50CD /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseAPI.swift; path = BITAlert/Views/ActivationCodeMVP/BaseAPI.swift; sourceTree = SOURCE_ROOT; };
+		9A232C74231F8C1000BF50CD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9A232C76231F8CDA00BF50CD /* MultipartRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MultipartRequestModel.swift; path = BITAlert/Config/MultipartRequestModel.swift; sourceTree = SOURCE_ROOT; };
+		9A232C78231F8DAE00BF50CD /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ErrorResponse.swift; path = BITAlert/Config/ErrorResponse.swift; sourceTree = SOURCE_ROOT; };
+		9A232C7A231F8E8900BF50CD /* AuthAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthAPI.swift; path = BITAlert/Config/AuthAPI.swift; sourceTree = SOURCE_ROOT; };
+		9A232C7C231F8F1600BF50CD /* LanguageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LanguageHelper.swift; path = BITAlert/Config/LanguageHelper.swift; sourceTree = SOURCE_ROOT; };
+		9A232C7E231F92CF00BF50CD /* AuthMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthMapper.swift; path = BITAlert/Config/AuthMapper.swift; sourceTree = SOURCE_ROOT; };
+		9A232C80231F92EE00BF50CD /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Mapper.swift; path = BITAlert/Config/Mapper.swift; sourceTree = SOURCE_ROOT; };
 		9ACC880C231718BD0087CED5 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		9ACC880F2317195D0087CED5 /* Colors.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Colors.txt; sourceTree = "<group>"; };
 		9ACC881223171AFF0087CED5 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
@@ -238,6 +254,8 @@
 		9A5269CE2313B3AB00625581 /* Api */ = {
 			isa = PBXGroup;
 			children = (
+				9A232C72231F8AAD00BF50CD /* BaseAPI.swift */,
+				9A232C7A231F8E8900BF50CD /* AuthAPI.swift */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -265,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				9ACC881123171AD20087CED5 /* Swiftgen */,
+				9A232C74231F8C1000BF50CD /* Constants.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -287,6 +306,7 @@
 		9A5269D52313B41100625581 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				9A232C7C231F8F1600BF50CD /* LanguageHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -294,6 +314,8 @@
 		9A5269D62313B42400625581 /* Mapper */ = {
 			isa = PBXGroup;
 			children = (
+				9A232C7E231F92CF00BF50CD /* AuthMapper.swift */,
+				9A232C80231F92EE00BF50CD /* Mapper.swift */,
 			);
 			path = Mapper;
 			sourceTree = "<group>";
@@ -308,6 +330,8 @@
 		9A5269D82313B43D00625581 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9A232C76231F8CDA00BF50CD /* MultipartRequestModel.swift */,
+				9A232C78231F8DAE00BF50CD /* ErrorResponse.swift */,
 				9A232C70231F882E00BF50CD /* RegisterModel.swift */,
 			);
 			path = Models;
@@ -427,6 +451,7 @@
 				9A1C446C2312DF4F00343710 /* Frameworks */,
 				9A1C446D2312DF4F00343710 /* Resources */,
 				0E97150B9E763EB610A752EB /* [CP] Copy Pods Resources */,
+				BEE21C2A5B6DBC048D163CEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -625,6 +650,23 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
+		BEE21C2A5B6DBC048D163CEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BITAlert/Pods-BITAlert-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BITAlert/Pods-BITAlert-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BITAlert/Pods-BITAlert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E30242F9E1E77D0FBBAB49FE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -676,6 +718,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A232C75231F8C1000BF50CD /* Constants.swift in Sources */,
 				9ACC881B23171CDB0087CED5 /* StoryboardSegues.swift in Sources */,
 				9A232C71231F882E00BF50CD /* RegisterModel.swift in Sources */,
 				9A232C57231DC11300BF50CD /* RegisterViewController.swift in Sources */,
@@ -683,6 +726,7 @@
 				9A232C5E231DC57000BF50CD /* AuthentificationFlowController.swift in Sources */,
 				9A232C62231DC6BE00BF50CD /* SplashPresenter.swift in Sources */,
 				9A1C44752312DF4F00343710 /* HomeViewController.swift in Sources */,
+				9A232C81231F92EE00BF50CD /* Mapper.swift in Sources */,
 				9ACC881D23171E910087CED5 /* Strings.swift in Sources */,
 				9A232C6F231F7A7B00BF50CD /* ActivationCodePresenter.swift in Sources */,
 				9A232C52231C690400BF50CD /* SplashViewController.swift in Sources */,
@@ -695,8 +739,14 @@
 				9ACC881523171CC60087CED5 /* Colors.swift in Sources */,
 				9A232C60231DC5A800BF50CD /* LoginPresenter.swift in Sources */,
 				9A232C5C231DC52B00BF50CD /* FlowController.swift in Sources */,
+				9A232C7B231F8E8900BF50CD /* AuthAPI.swift in Sources */,
+				9A232C77231F8CDA00BF50CD /* MultipartRequestModel.swift in Sources */,
 				9A1C44732312DF4F00343710 /* AppDelegate.swift in Sources */,
+				9A232C7D231F8F1600BF50CD /* LanguageHelper.swift in Sources */,
+				9A232C7F231F92CF00BF50CD /* AuthMapper.swift in Sources */,
 				9ACC881323171B000087CED5 /* Assets.swift in Sources */,
+				9A232C73231F8AAD00BF50CD /* BaseAPI.swift in Sources */,
+				9A232C79231F8DAE00BF50CD /* ErrorResponse.swift in Sources */,
 				9A232C55231DC10600BF50CD /* LoginViewController.swift in Sources */,
 				9ACC881923171CD40087CED5 /* StoryboardScenes.swift in Sources */,
 			);
