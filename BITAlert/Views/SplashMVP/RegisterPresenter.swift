@@ -7,13 +7,7 @@
 //
 
 import Foundation
-/*
- rotocol LoginDelegate: class {
- 
- }
- 
- class LoginPresenter {
- */
+
 protocol RegisterDelegate: class {
     
 }

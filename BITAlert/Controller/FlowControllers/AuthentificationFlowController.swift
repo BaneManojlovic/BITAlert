@@ -11,8 +11,20 @@ import UIKit
 class AuthentificationFlowController: FlowController {
 
     func goToLogin() {
-        let loginViewController = StoryboardScene.Authentification.loginViewController.instantiate()
-        loginViewController.presenter = LoginPresenter()
-        currentViewController.navigationController?.pushViewController(loginViewController, animated: true)
+        let loginVC = StoryboardScene.Authentification.loginViewController.instantiate()
+        loginVC.presenter = LoginPresenter()
+        currentViewController.navigationController?.pushViewController(loginVC, animated: true)
+    }
+    
+    func goToRegister() {
+        let registerVC = StoryboardScene.Authentification.registerViewController.instantiate()
+        registerVC.presenter = RegisterPresenter()
+        currentViewController.navigationController?.pushViewController(registerVC, animated: true)
+    }
+    
+    func goToActivationCode() {
+        let activationCodeVC = StoryboardScene.Authentification.activationCodeViewController.instantiate()
+        activationCodeVC.presenter = ActivationCodePresenter()
+        currentViewController.navigationController?.pushViewController(activationCodeVC, animated: true)
     }
 }

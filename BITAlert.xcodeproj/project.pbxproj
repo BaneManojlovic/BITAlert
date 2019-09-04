@@ -27,6 +27,9 @@
 		9A232C64231DC7BA00BF50CD /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C63231DC7BA00BF50CD /* SplashView.swift */; };
 		9A232C66231E33B100BF50CD /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C65231E33B100BF50CD /* RegisterView.swift */; };
 		9A232C68231E36C500BF50CD /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C67231E36C500BF50CD /* RegisterPresenter.swift */; };
+		9A232C6B231F7A4D00BF50CD /* ActivationCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C6A231F7A4D00BF50CD /* ActivationCodeView.swift */; };
+		9A232C6D231F7A6600BF50CD /* ActivationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C6C231F7A6600BF50CD /* ActivationCodeViewController.swift */; };
+		9A232C6F231F7A7B00BF50CD /* ActivationCodePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C6E231F7A7B00BF50CD /* ActivationCodePresenter.swift */; };
 		9ACC880D231718BD0087CED5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ACC880C231718BD0087CED5 /* Localizable.strings */; };
 		9ACC88102317195D0087CED5 /* Colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9ACC880F2317195D0087CED5 /* Colors.txt */; };
 		9ACC881323171B000087CED5 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC881223171AFF0087CED5 /* Assets.swift */; };
@@ -86,6 +89,9 @@
 		9A232C63231DC7BA00BF50CD /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		9A232C65231E33B100BF50CD /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterView.swift; path = BITAlert/Views/SplashMVP/RegisterView.swift; sourceTree = SOURCE_ROOT; };
 		9A232C67231E36C500BF50CD /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterPresenter.swift; path = BITAlert/Views/SplashMVP/RegisterPresenter.swift; sourceTree = SOURCE_ROOT; };
+		9A232C6A231F7A4D00BF50CD /* ActivationCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationCodeView.swift; sourceTree = "<group>"; };
+		9A232C6C231F7A6600BF50CD /* ActivationCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationCodeViewController.swift; sourceTree = "<group>"; };
+		9A232C6E231F7A7B00BF50CD /* ActivationCodePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationCodePresenter.swift; sourceTree = "<group>"; };
 		9ACC880C231718BD0087CED5 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		9ACC880F2317195D0087CED5 /* Colors.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Colors.txt; sourceTree = "<group>"; };
 		9ACC881223171AFF0087CED5 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
@@ -217,6 +223,16 @@
 			path = FlowControllers;
 			sourceTree = "<group>";
 		};
+		9A232C69231F7A1600BF50CD /* ActivationCodeMVP */ = {
+			isa = PBXGroup;
+			children = (
+				9A232C6C231F7A6600BF50CD /* ActivationCodeViewController.swift */,
+				9A232C6A231F7A4D00BF50CD /* ActivationCodeView.swift */,
+				9A232C6E231F7A7B00BF50CD /* ActivationCodePresenter.swift */,
+			);
+			path = ActivationCodeMVP;
+			sourceTree = "<group>";
+		};
 		9A5269CE2313B3AB00625581 /* Api */ = {
 			isa = PBXGroup;
 			children = (
@@ -317,6 +333,7 @@
 				9A232C4E231C67CD00BF50CD /* SplashMVP */,
 				9A5269DD2313B49500625581 /* LoginMVP */,
 				9A5269DE2313B49D00625581 /* RegisterMVP */,
+				9A232C69231F7A1600BF50CD /* ActivationCodeMVP */,
 				9A232C53231DC0B000BF50CD /* HomeScreenMVP */,
 				9A5269DC2313B48C00625581 /* BaseMVP */,
 			);
@@ -663,10 +680,13 @@
 				9A232C62231DC6BE00BF50CD /* SplashPresenter.swift in Sources */,
 				9A1C44752312DF4F00343710 /* HomeViewController.swift in Sources */,
 				9ACC881D23171E910087CED5 /* Strings.swift in Sources */,
+				9A232C6F231F7A7B00BF50CD /* ActivationCodePresenter.swift in Sources */,
 				9A232C52231C690400BF50CD /* SplashViewController.swift in Sources */,
 				9ACC881723171CCD0087CED5 /* Fonts.swift in Sources */,
 				9A232C66231E33B100BF50CD /* RegisterView.swift in Sources */,
+				9A232C6D231F7A6600BF50CD /* ActivationCodeViewController.swift in Sources */,
 				9A232C59231DC27E00BF50CD /* LoginView.swift in Sources */,
+				9A232C6B231F7A4D00BF50CD /* ActivationCodeView.swift in Sources */,
 				9A232C68231E36C500BF50CD /* RegisterPresenter.swift in Sources */,
 				9ACC881523171CC60087CED5 /* Colors.swift in Sources */,
 				9A232C60231DC5A800BF50CD /* LoginPresenter.swift in Sources */,

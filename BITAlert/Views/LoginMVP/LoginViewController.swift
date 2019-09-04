@@ -10,6 +10,7 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
+    lazy private var flowController = AuthentificationFlowController(currentViewController: self)
     var presenter: LoginPresenter!
 
     private var loginView: LoginView! {
@@ -44,5 +45,6 @@ class LoginViewController: UIViewController {
     
     @objc func openRegisterScreen() {
         print("Signup tapped ...")
+        flowController.goToRegister()
     }
 }

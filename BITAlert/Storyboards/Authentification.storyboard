@@ -223,6 +223,33 @@
             </objects>
             <point key="canvasLocation" x="3471.0144927536235" y="32.8125"/>
         </scene>
+        <!--Activation Code View Controller-->
+        <scene sceneID="Loq-K2-Nfv">
+            <objects>
+                <viewController storyboardIdentifier="ActivationCodeViewController" id="JS8-k1-Ppl" customClass="ActivationCodeViewController" customModule="BITAlert" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gQ4-aF-CAI" customClass="ActivationCodeView" customModule="BITAlert" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter activation code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98h-iU-uED">
+                                <rect key="frame" x="126.5" y="437.5" width="161.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="98h-iU-uED" firstAttribute="centerX" secondItem="gQ4-aF-CAI" secondAttribute="centerX" id="F3y-lY-Ntq"/>
+                            <constraint firstItem="98h-iU-uED" firstAttribute="centerY" secondItem="gQ4-aF-CAI" secondAttribute="centerY" id="Mi1-68-OGI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JI5-mz-uMY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FdV-OX-Nyt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4413" y="33"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="7kS-ey-9yR">
             <objects>
