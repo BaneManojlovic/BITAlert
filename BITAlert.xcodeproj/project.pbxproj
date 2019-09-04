@@ -30,6 +30,7 @@
 		9A232C6B231F7A4D00BF50CD /* ActivationCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C6A231F7A4D00BF50CD /* ActivationCodeView.swift */; };
 		9A232C6D231F7A6600BF50CD /* ActivationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C6C231F7A6600BF50CD /* ActivationCodeViewController.swift */; };
 		9A232C6F231F7A7B00BF50CD /* ActivationCodePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C6E231F7A7B00BF50CD /* ActivationCodePresenter.swift */; };
+		9A232C71231F882E00BF50CD /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A232C70231F882E00BF50CD /* RegisterModel.swift */; };
 		9ACC880D231718BD0087CED5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ACC880C231718BD0087CED5 /* Localizable.strings */; };
 		9ACC88102317195D0087CED5 /* Colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9ACC880F2317195D0087CED5 /* Colors.txt */; };
 		9ACC881323171B000087CED5 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC881223171AFF0087CED5 /* Assets.swift */; };
@@ -92,6 +93,7 @@
 		9A232C6A231F7A4D00BF50CD /* ActivationCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationCodeView.swift; sourceTree = "<group>"; };
 		9A232C6C231F7A6600BF50CD /* ActivationCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationCodeViewController.swift; sourceTree = "<group>"; };
 		9A232C6E231F7A7B00BF50CD /* ActivationCodePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationCodePresenter.swift; sourceTree = "<group>"; };
+		9A232C70231F882E00BF50CD /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterModel.swift; path = BITAlert/Views/ActivationCodeMVP/RegisterModel.swift; sourceTree = SOURCE_ROOT; };
 		9ACC880C231718BD0087CED5 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		9ACC880F2317195D0087CED5 /* Colors.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Colors.txt; sourceTree = "<group>"; };
 		9ACC881223171AFF0087CED5 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
@@ -306,6 +308,7 @@
 		9A5269D82313B43D00625581 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9A232C70231F882E00BF50CD /* RegisterModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -674,6 +677,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ACC881B23171CDB0087CED5 /* StoryboardSegues.swift in Sources */,
+				9A232C71231F882E00BF50CD /* RegisterModel.swift in Sources */,
 				9A232C57231DC11300BF50CD /* RegisterViewController.swift in Sources */,
 				9A232C64231DC7BA00BF50CD /* SplashView.swift in Sources */,
 				9A232C5E231DC57000BF50CD /* AuthentificationFlowController.swift in Sources */,
