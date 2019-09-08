@@ -1,2 +1,15 @@
 
+// MARK: - Title labels
 "title_label_alerts" = "Alerts";
+
+// MARK: - Alert titles
+"alert_title_error" = "Error";
+"alert_title_no_internet" = "No internet";
+
+// MARK: - Alert messages
+"alert_message_no_internet" = "No internet";
+
+// MARK: - Button titles
+"button_title_settings" = "Settings";
+"button_title_try_again" = "Try again";
+"button_title_cancel" = "Cancel";

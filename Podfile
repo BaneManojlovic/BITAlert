@@ -11,6 +11,7 @@ target 'BITAlert' do
   pod 'GoogleMaps'
   pod 'GooglePlaces'
   pod 'Alamofire'
+  pod 'MBProgressHUD'
 
   target 'BITAlertTests' do
     inherit! :search_paths

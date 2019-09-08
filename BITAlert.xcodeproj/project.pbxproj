@@ -47,6 +47,12 @@
 		9ACC881923171CD40087CED5 /* StoryboardScenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC881823171CD30087CED5 /* StoryboardScenes.swift */; };
 		9ACC881B23171CDB0087CED5 /* StoryboardSegues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC881A23171CDA0087CED5 /* StoryboardSegues.swift */; };
 		9ACC881D23171E910087CED5 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC881C23171E910087CED5 /* Strings.swift */; };
+		9ADD45982320371A00F9CA2D /* UIViewController+Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD45972320371A00F9CA2D /* UIViewController+Alerts.swift */; };
+		9ADD459A23203E9200F9CA2D /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD459923203E9200F9CA2D /* BasePresenter.swift */; };
+		9ADD459C23203EA900F9CA2D /* BaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD459B23203EA900F9CA2D /* BaseProtocol.swift */; };
+		9ADD459E23203F6000F9CA2D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD459D23203F6000F9CA2D /* BaseViewController.swift */; };
+		9ADD45A02320406F00F9CA2D /* UIView+Extensiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD459F2320406F00F9CA2D /* UIView+Extensiones.swift */; };
+		9ADD45A223204C0000F9CA2D /* NavigationBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD45A123204C0000F9CA2D /* NavigationBaseViewController.swift */; };
 		A9ACE55C4C49C3B548313934 /* Pods_BITAlertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE55ADDFDF7113101A030DB /* Pods_BITAlertTests.framework */; };
 		ACEEA8E827F2901D2D6937F2 /* Pods_BITAlertUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D01DA73CDA7C9B9522CF088 /* Pods_BITAlertUITests.framework */; };
 /* End PBXBuildFile section */
@@ -118,6 +124,12 @@
 		9ACC881823171CD30087CED5 /* StoryboardScenes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardScenes.swift; sourceTree = "<group>"; };
 		9ACC881A23171CDA0087CED5 /* StoryboardSegues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardSegues.swift; sourceTree = "<group>"; };
 		9ACC881C23171E910087CED5 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		9ADD45972320371A00F9CA2D /* UIViewController+Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIViewController+Alerts.swift"; path = "BITAlert/Config/UIViewController+Alerts.swift"; sourceTree = SOURCE_ROOT; };
+		9ADD459923203E9200F9CA2D /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BasePresenter.swift; path = BITAlert/Config/BasePresenter.swift; sourceTree = SOURCE_ROOT; };
+		9ADD459B23203EA900F9CA2D /* BaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseProtocol.swift; path = BITAlert/Config/BaseProtocol.swift; sourceTree = SOURCE_ROOT; };
+		9ADD459D23203F6000F9CA2D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = BITAlert/Config/BaseViewController.swift; sourceTree = SOURCE_ROOT; };
+		9ADD459F2320406F00F9CA2D /* UIView+Extensiones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Extensiones.swift"; path = "BITAlert/Config/UIView+Extensiones.swift"; sourceTree = SOURCE_ROOT; };
+		9ADD45A123204C0000F9CA2D /* NavigationBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationBaseViewController.swift; path = BITAlert/Config/NavigationBaseViewController.swift; sourceTree = SOURCE_ROOT; };
 		B126CD3A6FC77DE3C0B5A408 /* Pods-BITAlertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BITAlertTests.release.xcconfig"; path = "Target Support Files/Pods-BITAlertTests/Pods-BITAlertTests.release.xcconfig"; sourceTree = "<group>"; };
 		EAE55ADDFDF7113101A030DB /* Pods_BITAlertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BITAlertTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF724E630B08EF181F63527 /* Pods-BITAlertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BITAlertUITests.debug.xcconfig"; path = "Target Support Files/Pods-BITAlertUITests/Pods-BITAlertUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -299,6 +311,8 @@
 		9A5269D42313B40900625581 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				9ADD45972320371A00F9CA2D /* UIViewController+Alerts.swift */,
+				9ADD459F2320406F00F9CA2D /* UIView+Extensiones.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -357,12 +371,12 @@
 		9A5269DB2313B46700625581 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9A5269DC2313B48C00625581 /* BaseMVP */,
 				9A232C4E231C67CD00BF50CD /* SplashMVP */,
 				9A5269DD2313B49500625581 /* LoginMVP */,
 				9A5269DE2313B49D00625581 /* RegisterMVP */,
 				9A232C69231F7A1600BF50CD /* ActivationCodeMVP */,
 				9A232C53231DC0B000BF50CD /* HomeScreenMVP */,
-				9A5269DC2313B48C00625581 /* BaseMVP */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -370,6 +384,10 @@
 		9A5269DC2313B48C00625581 /* BaseMVP */ = {
 			isa = PBXGroup;
 			children = (
+				9ADD459923203E9200F9CA2D /* BasePresenter.swift */,
+				9ADD459B23203EA900F9CA2D /* BaseProtocol.swift */,
+				9ADD459D23203F6000F9CA2D /* BaseViewController.swift */,
+				9ADD45A123204C0000F9CA2D /* NavigationBaseViewController.swift */,
 			);
 			path = BaseMVP;
 			sourceTree = "<group>";
@@ -723,12 +741,17 @@
 				9A232C71231F882E00BF50CD /* RegisterModel.swift in Sources */,
 				9A232C57231DC11300BF50CD /* RegisterViewController.swift in Sources */,
 				9A232C64231DC7BA00BF50CD /* SplashView.swift in Sources */,
+				9ADD459E23203F6000F9CA2D /* BaseViewController.swift in Sources */,
 				9A232C5E231DC57000BF50CD /* AuthentificationFlowController.swift in Sources */,
+				9ADD459C23203EA900F9CA2D /* BaseProtocol.swift in Sources */,
 				9A232C62231DC6BE00BF50CD /* SplashPresenter.swift in Sources */,
 				9A1C44752312DF4F00343710 /* HomeViewController.swift in Sources */,
 				9A232C81231F92EE00BF50CD /* Mapper.swift in Sources */,
 				9ACC881D23171E910087CED5 /* Strings.swift in Sources */,
+				9ADD45A02320406F00F9CA2D /* UIView+Extensiones.swift in Sources */,
+				9ADD459A23203E9200F9CA2D /* BasePresenter.swift in Sources */,
 				9A232C6F231F7A7B00BF50CD /* ActivationCodePresenter.swift in Sources */,
+				9ADD45982320371A00F9CA2D /* UIViewController+Alerts.swift in Sources */,
 				9A232C52231C690400BF50CD /* SplashViewController.swift in Sources */,
 				9ACC881723171CCD0087CED5 /* Fonts.swift in Sources */,
 				9A232C66231E33B100BF50CD /* RegisterView.swift in Sources */,
@@ -740,6 +763,7 @@
 				9A232C60231DC5A800BF50CD /* LoginPresenter.swift in Sources */,
 				9A232C5C231DC52B00BF50CD /* FlowController.swift in Sources */,
 				9A232C7B231F8E8900BF50CD /* AuthAPI.swift in Sources */,
+				9ADD45A223204C0000F9CA2D /* NavigationBaseViewController.swift in Sources */,
 				9A232C77231F8CDA00BF50CD /* MultipartRequestModel.swift in Sources */,
 				9A1C44732312DF4F00343710 /* AppDelegate.swift in Sources */,
 				9A232C7D231F8F1600BF50CD /* LanguageHelper.swift in Sources */,
